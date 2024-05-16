@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style/login.css">
+
+</head>
+<body>
+    <h1>Login</h1>
+    <div class="rettangolo">
+        <form action="php/loginCheckProf.php" method="post">
+            <h4>Email</h4>
+            <input name="email" type="email" placeholder="Inserire email" required><br>
+            <h4>Password</h4>
+            <input name="password" type="password" placeholder="Inserire password" required><br>
+
+            <div class="i"><img src="php/captcha.php"><input class="a" type="text" name="captcha" maxlength="5" size="4"></div>
+            
+            
+            <input class="c" type="submit" value="Accedi" ><br>
+            
+            <h4>Sei uno studente? <a href="loginStud.html">Accedi qui</a></h4>
+            
+        </form>            
+            
+    </div>      
+</body>
+</html>
