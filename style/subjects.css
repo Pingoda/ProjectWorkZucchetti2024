@@ -1,0 +1,197 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(../assets/background.png);
+    font-family: "Poppins", sans-serif;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    font-weight: 600;
+}
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 10%;
+    text-decoration: none;
+    position: relative;
+    top: 20%;
+}
+
+
+.sidebar a:hover {
+    background-color: #A3CFFF;
+}
+
+.logout-btn{
+    background-color: #3CABFF;
+    border: none;
+    border-radius: 5px;
+    height: 26px;
+    width: 86.14px;
+    font-style: medium;
+    font-size: 16px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top:200px;
+    position: relative;
+    left: 50px;
+    font-weight: 700;
+}
+
+
+.titolo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 300px;
+    padding-top: 100px;
+    width: 200px;
+    height: 37.6px;
+}
+
+h1{
+    margin: 0;
+}
+
+
+.contenitore {
+    display: flex;
+    flex-direction: column;
+    margin-left: -300px;
+    width: 581px;
+    height:  401.5px;
+}
+
+.rettangolo {
+    width: 543px;
+    height: 43px;
+    background-color: #F7F9F9; /* Imposta il colore di sfondo del rettangolo */
+    margin-bottom: 25px; /* Aggiunge margine inferiore tra i rettangoli */
+    border-radius: 20px;
+    border-width: 1px; /* Imposta uno spessore del bordo di 5 pixel */
+    border-style: solid; /* Imposta uno stile di bordo solido (puoi scegliere tra dashed, dotted, ecc.) */
+    border-color: #9B9B9B;
+    text-align: center;
+    position: relative;
+    padding: 3.5%;
+}
+
+.numero {
+    position: absolute;
+    left: 0;
+    top: 50%; /* Regola la posizione verticale del numero */
+    transform: translateY(-50%);
+    margin: 0; /* Rimuove il margine predefinito del numero */
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+#testo{
+    position: absolute;
+    left: 30%; /* Posiziona il centro dello span rispetto al centro del rettangolo */
+    top: 50%; /* Posiziona il centro dello span rispetto al centro del rettangolo */
+    transform: translate(-50%, -50%); /* Centra completamente lo span */
+    color: #000000;
+}
+
+.data{
+    position: absolute;
+    right: 0%;
+    top: 50%; /* Regola la posizione verticale del numero */
+    transform: translateY(-50%);
+    margin: 0; /* Rimuove il margine predefinito del numero */
+    font-size: 15px;
+    color: #898989;
+    font-weight: 10;
+    padding-right: 5px;
+}
+
+.contenitore2{
+    position: absolute;
+    display: flex;
+    margin-right: -860px;
+    width: 205px;
+    height: 159px;
+    top: 185px;
+    text-align: center;
+}
+
+.rettangolo2{
+    width: 205px;
+    height: 159px;
+    background-color: #799BD1; /* Colore di sfondo del secondo rettangolo */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.media{
+    font-size: 18px;
+    font-weight: medium;
+    color: #FFFFFF;
+    margin-bottom: 22%;
+    margin-top: 5px;
+}
+
+.votoM{
+    font-size: 32px;
+    top: 50%; /* Regola la posizione verticale del numero */
+    font-weight: 600;
+
+}
+
+.contenitore3{
+    position: absolute;
+    display: flex;
+    margin-right: -860px;
+    width: 195px;
+    height: 240px;
+    top: 385px;
+    text-align: center;
+}
+
+.rettangolo3{
+    width: 195px;
+    height: 240px;
+    border-radius: 30px;
+    background-color: #EDEDED;
+    border-width: 1px; /* Imposta uno spessore del bordo di 5 pixel */
+    border-style: solid; /* Imposta uno stile di bordo solido (puoi scegliere tra dashed, dotted, ecc.) */
+    border-color: #A9A9A9;
+}
+
+.messaggio{
+    width: 100px;
+    height: 35px;
+    background-color: #3CABFF;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 20px; /* Distanza dal bordo inferiore del div */
+    right: 22.5%;
+}
+
+.placeholder{
+    font-size: 15px;
+    font-weight: 100; /* Imposta il carattere come thin (sottile) */
+    font-style: italic; /* Imposta il corsivo */
+    position: relative;
+   
+}
+
